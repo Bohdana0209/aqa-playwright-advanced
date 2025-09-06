@@ -1,0 +1,23 @@
+{
+  "name": "aqa-playwright-advanced",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Advanced Automated QA project with Playwright. Covers end-to-end testing best practices, page object model, test parametrization, CI/CD integration, and advanced scenarios for web applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node nodeBasics/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bohdana0209/aqa-playwright-advanced.git"
+  },
+  "author": "Bohdana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bohdana0209/aqa-playwright-advanced/issues"
+  },
+  "homepage": "https://github.com/Bohdana0209/aqa-playwright-advanced#readme",
+  "dependencies": {
+    "chalk": "^5.6.0"
+  }
+}
