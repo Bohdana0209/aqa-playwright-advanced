@@ -5,7 +5,11 @@
   "description": "Advanced Automated QA project with Playwright. Covers end-to-end testing best practices, page object model, test parametrization, CI/CD integration, and advanced scenarios for web applications.",
   "main": "index.js",
   "scripts": {
-    "test": "node nodeBasics/index.js"
+    "test": "node nodeBasics/index.js",
+    "task1": "node jsBasics/task1.js",
+    "task2": "node jsBasics/task2.js",
+    "task3": "node jsBasics/task3.js",
+    "task4": "node jsBasics/task4.js"
   },
   "repository": {
     "type": "git",
