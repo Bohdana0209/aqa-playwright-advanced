@@ -9,7 +9,10 @@
     "task1": "node jsBasics/task1.js",
     "task2": "node jsBasics/task2.js",
     "task3": "node jsBasics/task3.js",
-    "task4": "node jsBasics/task4.js"
+    "task4": "node jsBasics/task4.js",
+    "task5": "node loops/task1.js",
+    "task6": "node loops/task2.js",
+    "task7": "node loops/task3.js"
   },
   "repository": {
     "type": "git",
