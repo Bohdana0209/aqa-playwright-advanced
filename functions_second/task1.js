@@ -1,17 +1,17 @@
 function handleNum(num, evenNumber, oddNumber) {
     if (num % 2 === 0) {
-        return handleEven(num);
+        return evenNumber(num);
     }
 
-    return handleOdd(num);
+    return oddNumber(num);
 }
 
-function handleEven() {
+function onEvenNumber() {
     return "number is even";
 }
 
-function handleOdd() {
+function onOddNumber() {
     return "number is odd";
 }
 
-console.log(handleNum(10, handleEven, handleOdd));
+console.log(handleNum(13, onEvenNumber, onOddNumber));
