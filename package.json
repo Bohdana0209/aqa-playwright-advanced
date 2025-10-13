@@ -13,7 +13,8 @@
     "task5": "node loops/task1.js",
     "task6": "node loops/task2.js",
     "task7": "node loops/task3.js",
-    "task8": "node functions_first/task1.js"
+    "task8": "node functions_first/task1.js",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,13 @@
   "homepage": "https://github.com/Bohdana0209/aqa-playwright-advanced#readme",
   "dependencies": {
     "chalk": "^5.6.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "eslint": "^9.37.0",
+    "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.4",
+    "prettier": "3.6.2"
   }
 }
